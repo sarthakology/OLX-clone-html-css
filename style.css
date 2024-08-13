@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+}
+#navbar1{
+    height: 68px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0,.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+#home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/assets/olx-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 48px;
+    width: 75px;
+    margin: 5px;
+}
+
+#location {
+    display: flex;
+    height: 48px;
+    width: 270px;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 2%;
+}
+#location-search-icon{
+    font-size: 25px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#location-box{
+    border: 0px;
+    background-color: white;
+    height: 48px;
+    width: 200px;
+}
+
+#main-search-box {
+    display: flex;
+    border: 2px solid black;
+    height: 48px;
+    width: 730px;
+    margin: 5px;
+    border-radius: 2%;
+}
+#search-field{
+    font-size: 15px;
+    border: 0px solid white; 
+    background-color: white;  
+    height: 46px;
+    width: 682px; 
+}
+#main-search-icon{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 48px;
+    width: 48px;
+}
+
+
+#language-drop-down{
+    height: 48px;
+    width: 90px;
+    margin: 5px;
+}
+#language{
+    background-color: rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 100px;
+    border: 0px;
+    font-size: 15px;
+}
+
+#chat-button {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 48px;
+    border: none;
+
+}
+#notification-bell{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 48px;
+    border: none;
+
+}
+#profile-button{
+    color: white;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+
+}
+#main-sell-button-box{
+    height: 48px;
+    width: 104px;
+    margin: 5px;
+}
+#main-sell-button{
+    background-image: url("/assets/sell-button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0);
+    border: 4px solid rgba(0, 0, 0, 0);
+    height: 48px;
+    width: 104px;
+    font-size: 15px;
+
+}
+#navbar2{
+    height: 50px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#navbar2-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.navbar2-button{
+    margin: 10px;
+    border: none;
+    background-color: white;
+}
+#body-box{
+    margin-top: 20px;
+
+}
+#body-box-heading{
+    margin: 20px 80px 20px 80px;
+    padding: 0px 40px 0px 40px;
+}
+#body-content{
+    width: 1280px;
+    margin: 20px 80px 20px 80px;
+    padding: 0px 40px 0px 40px;
+}
+.card{
+    display: inline-block;
+    height: 266px;
+    width: 292.5px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0,0.2);
+    border-radius: 1%;
+}
+.card:hover{
+    border: 2px solid black;
+}
+.card-image{
+    height: 160px;
+    width: 270px;
+    margin: 8px 11.25px 8px 11.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    /* overflow-y: scroll; */
+}
+.card-image img{
+    height: auto;
+    width: 100%;
+}
+.card-data{
+    height: 72px;
+    width: 254px;
+    margin: 8px 19.25px 8px 19.25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: static;
+    bottom: 0;
+}
+#upper-footer{
+    height: 198px;
+    width: 100vw;
+    background-image: url("/assets/upper-footer.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(235,238,239);
+}
+#middle-footer{
+    padding: 16px 0px 16px 0px;
+    background-color: rgb(235,238,239);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.midder-footer-content-last-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#middle-footer-button-3{
+    background-image: url(playstore.webp);
+    height: 26px;
+    width: 86px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#middle-footer-button-4{
+    background-image: url(appstore.webp);
+    height: 26px;
+    width: 86px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.middle-footer-button{
+    border: none;
+    color: rgba(0,47,52,0.64);
+    font-size: 12px;
+}
+
+.middle-footer-button-2{
+    border: none;
+    font-size: 15px;
+    color: rgba(0,47,52,0.64);
+}
+
+#lower-footer{
+    height: 26px;
+    width: 100vw;
+    background-color: rgb(0,47,52);
+    padding: 16px 0px 16px 0px ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#lower-footer-button{
+    background-color: rgb(0,47,52);
+    border: none;
+    color: white;
+}
+ul{
+    list-style: none;
+
+}
